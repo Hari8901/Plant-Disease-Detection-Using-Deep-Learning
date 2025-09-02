@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+kaggle.json
+plantvillage-dataset.zip
+# Virtual environment
+env/
+venv/
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Model artifacts
+model/
+**/model/
+*.h5
+*.hdf5
+*.pb
+*.keras
+saved_model/
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets and local settings
+.env
+local_settings.py
